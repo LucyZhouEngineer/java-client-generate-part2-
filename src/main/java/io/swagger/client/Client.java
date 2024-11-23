@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 public class Client {
     private static final int NUM_THREADS = 50;
     private static final int REQUESTS_PER_THREAD = 1000;
-    private static final int TOTAL_EVENTS = 30000;
+    private static final int TOTAL_EVENTS = 200000;
     public static final String BASE_URL = "http://35.84.246.104:8080";
 
     public static void main(String[] args) throws InterruptedException {
